@@ -1,45 +1,110 @@
-# Password Manager
+# 🔐 Password Manager
 
-Password Manager is an user-friendly web application built with React and Tailwind CSS, featuring a clean and fully responsive layout. It uses Express for backend logic and browser local storage to store and manage user credentials. The project emphasizes responsive UI design, CRUD operations, and full-stack application flow.
-
----
-
-## Features
-- Add, edit, and delete passwords
-- Store credentials using browser local storage
-- Clean and responsive UI with Tailwind CSS
-- REST-style API integration
-- Simple and intuitive user experience
+A secure and user-friendly **Password Manager application** built using **React** and **Tailwind CSS**.  
+This project allows users to store, view, and manage their credentials using **browser localStorage**, focusing on clean UI and core React concepts.
 
 ---
 
-## Tech Stack
-- Frontend: React, Tailwind CSS
-- Backend: Express.js
-- Storage: Browser Local Storage
+## 🚀 Features
+
+- Add and store website credentials
+- View saved passwords
+- Delete stored credentials
+- Data persistence using browser localStorage
+- Clean and responsive UI
+- Reusable React components
 
 ---
 
-## Project Structure
-client/ # React frontend
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Application pages
-│ ├── utils/ # Helper functions
-│ └── App.jsx # Main application component
-│
-server/ # Express backend
-├── routes/ # API route definitions
-├── controllers/ # Request handling logic
-├── index.js # Server entry point
+## 🛠️ Tech Stack
 
-## API Endpoints
+- **React** – Frontend UI library
+- **Tailwind CSS** – Utility-first CSS framework
+- **JavaScript (ES6+)**
+- **Browser localStorage** – Client-side data storage
 
-## Installation and Setup
+---
 
-### Clone the repository
+## 📂 Project Structure
+
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+PasswordManager/
+├── node_modules/
+├── public/
+│   ├── icons/
+│   ├── favicon.png
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── Footer.jsx
+│   │   ├── Manager.jsx
+│   │   └── Navbar.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── README.md
+└── vite.config.md
 
-## Future Improvements
-User authentication
+
+# Clone the repository
+git clone <your-repo-url>
+
+# Navigate to the project folder
+cd password-manager
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+The application will run on http://localhost:5173/ (Vite default).
+
+---
+
+## 📚 Learning Context
+
+This project was built as a **follow-along exercise** from the **Sigma Web Development Tutorial** to practice:
+
+- React state management
+- Controlled form inputs
+- CRUD operations using `localStorage`
+- Component-based architecture
+- Tailwind CSS styling
+
+> **Note:** The original tutorial includes a backend with Express and MongoDB.  
+> In this implementation, data persistence is handled entirely using **browser localStorage**.
+
+---
+
+## 🎯 Future Improvements
+
+- Integrate backend using Express and MongoDB
+- Add authentication and encryption
+- Edit existing credentials
+- Search and filter saved passwords
+- Improve UI animations and accessibility
+
+---
+
+## 🙌 Acknowledgements
+
+- Sigma Web Development Tutorial
+- React & Tailwind CSS documentation
+
+---
+
+## 📌 Author
+
+**Agya Singh**  
+🔗 [LinkedIn](https://linkedin.com/in/agya-singh-3a6655102)
+
+---
